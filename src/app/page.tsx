@@ -1,4 +1,5 @@
 
+import About from '@/components/About'
 import Cocktails from '@/components/Cocktails'
 import Hero from '@/components/Hero'
 import gsap from 'gsap'
@@ -11,6 +12,7 @@ export default function Home() {
     <main className=''>
       <Hero />
       <Cocktails />
+      <About />
     </main>
   )
 }
